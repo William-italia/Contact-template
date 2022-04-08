@@ -37,13 +37,30 @@ label {
 
 /* Utilities */
 .btn {
-    border: none;
+    position: relative;
     display: inline-block;
-    background: #71faf8;
-    padding: 13px 20px;
+    color: #00000e;
+    padding: 13px 50px;
     font-size: 1rem;
     font-weight: 700;
     border-radius: 2px;
+}
+
+.btn::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0.25turn, #013878, #08efff, #08efff, #08efff, #08efff, #013878);
+    border-radius: 2px;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.btn:hover::after {
+    background: linear-gradient(0.25turn, #6596ce, #144d51, #26494c, #08efff, #08efff, #013878);
 }
 
 /* Form */
@@ -147,7 +164,7 @@ label {
 
 
 .container-btn {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
