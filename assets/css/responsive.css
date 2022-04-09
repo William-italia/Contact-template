@@ -46,6 +46,33 @@
     width: 100%;
   }
 
+  .container {
+    position: relative;
+    box-shadow: none;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .container::before {
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #30f5f5,#fd8ee5);
+    background-size: 400% 400%;
+    animation: gradient 0.3s ease infinite;
+    z-index: -1;
+  }
+
+  .container::after {
+    position: absolute;
+    content: ' ';
+    background: #fff;
+    inset: 4px;
+    z-index: -1;
+  }
 }
 
 @media(max-height: 955px) {
