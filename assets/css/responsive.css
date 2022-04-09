@@ -60,7 +60,7 @@
     content: ' ';
     width: 100%;
     height: 100%;
-    background: linear-gradient(-45deg, #30f5f5,#fd8ee5);
+    background: linear-gradient(-45deg, #00ffff,#fe00c7);
     background-size: 400% 400%;
     animation: gradient 0.3s ease infinite;
     z-index: -1;
