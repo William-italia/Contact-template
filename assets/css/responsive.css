@@ -1,0 +1,117 @@
+/* Responsive */
+
+@media(max-width: 900px) {
+  .img-form {
+      display: none;
+  }
+
+  .form {
+      width: 100%;   
+  }
+
+  .input-group {
+      padding-top: 4rem;
+      margin: 0rem 0rem 2rem 0rem;
+  }
+
+  .input-box.mensagem {
+      margin-top: 1.4rem;
+      width: 100%;
+      height: 200px;
+  } 
+  
+  .input-box.mensagem > textarea {
+      height: 100%;
+  }
+  
+  .btn {
+      background: linear-gradient(-45deg, #30f5f5,#fd8ee5);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+  }
+
+  .container-btn {
+      margin-top: 1rem;
+  }
+
+}
+@media(max-width: 600px) {
+  
+  .input-group {
+    display: block;
+    padding-top: 2rem;
+  }
+
+  .input-box.name {
+    width: 100%;
+  }
+
+}
+
+@media(max-height: 955px) {
+
+  .input-group {
+    margin-top: 1rem;
+  }
+
+  .input-box.mensagem {
+      margin-top: 1rem;
+      width: 100%;
+      height: 150px;
+  } 
+  
+  .input-box.mensagem > textarea {
+      height: 70%;
+  }
+
+  .container-btn {
+      margin-top: 4rem;
+  }
+
+  .form-header .title {
+      margin-top: 3rem;
+  }
+
+  .container {
+      /* box-shadow: none;       */
+  }
+}
+
+@media(max-height: 895px) {
+
+  .input-group {
+    margin-top: 0rem;
+  }
+
+  .input-box.mensagem {
+      margin-top: 1rem;
+      width: 100%;
+      height: 150px;
+  } 
+  
+  .input-box.mensagem > textarea {
+      height: 100%;
+  }
+
+  .container-btn {
+      margin-top: 4rem;
+  }
+
+  .form-header .title {
+      margin-top: 3rem;
+  }
+
+  .container {
+      /* box-shadow: none;       */
+  }
+}
+
+@media(max-height: 895px) {
+
+   .input-group {
+     margin-top: 1rem;
+     overflow-y: scroll;
+     height: 22rem;
+  }
+
+}
