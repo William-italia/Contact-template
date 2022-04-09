@@ -99,9 +99,7 @@
       margin-top: 3rem;
   }
 
-  .container {
-      /* box-shadow: none;       */
-  }
+
 }
 
 @media(max-height: 895px) {
@@ -125,7 +123,7 @@
   }
 
   .form-header .title {
-      margin-top: 3rem;
+      margin-top: 4rem;
   }
 
   .container {
@@ -141,4 +139,7 @@
      height: 22rem;
   }
 
+  .container {
+    height: 700px;
+  }
 }

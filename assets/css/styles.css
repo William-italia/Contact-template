@@ -15,7 +15,6 @@ body {
     font-size: 62.5%;
     line-height: 1.4;
     font-weight: 400;
-    height: 100vh;
 }
 
 
@@ -94,7 +93,7 @@ label {
 
 .container {
     width: 80%;
-    height: 80%;
+    height: 800px;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
