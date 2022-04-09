@@ -240,6 +240,7 @@ z-index: -1;
     .container-btn {
         margin-top: 1rem;
     }
+
 }
 
 @media(max-height: 900px) {
@@ -269,5 +270,9 @@ z-index: -1;
 
     .form-header .title {
         margin-top: 2rem;
+    }
+
+    .container {
+        box-shadow: none;      
     }
 }
