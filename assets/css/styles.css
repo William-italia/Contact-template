@@ -264,6 +264,10 @@ z-index: -1;
     }
 
     .container-btn {
-        margin-top: 1rem;
+        margin-top: 3rem;
+    }
+
+    .form-header .title {
+        margin-top: 2rem;
     }
 }
