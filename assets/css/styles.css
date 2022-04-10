@@ -157,6 +157,15 @@ z-index: -1;
 	animation: gradient 2s ease infinite;
 }
 
+input {
+}
+
+input:focus, 
+textarea:focus {
+    background: #eee;
+    outline: none;
+    
+}
 
 .input-group {
     display: flex;
@@ -169,6 +178,7 @@ z-index: -1;
     flex-direction: column;
     margin-bottom: 1.1rem;    
     padding: 0 2rem;
+
 }
 
 .input-box.name {
@@ -179,7 +189,7 @@ z-index: -1;
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #333;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     resize: none;
 }
 
@@ -203,5 +213,10 @@ z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.is-required::before {
+    content: '*';
+    color: red;
 }
 
